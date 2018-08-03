@@ -1,7 +1,11 @@
 .section-about {
   background-color: $color-grey-light-1;
-  padding: 25rem 0;
+  padding: 30rem 0;
   margin-top: -25vh;
+
+  @include respond(tablet) {
+    padding: 25rem 0;
+  }
 }
 
 .section-features {
