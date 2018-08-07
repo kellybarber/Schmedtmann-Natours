@@ -147,7 +147,7 @@
     font-weight: 100;
   }
 
-  @include respond(tablet) {
+  @include respond(tab-port) {
     height: auto;
     border-radius: 3px;
     background-color: $color-white;
@@ -169,7 +169,7 @@
     }
 
     &__details {
-      padding: 0 3rem;
+      padding: 1rem 3rem;
     }
   
     //Back Side Styling
